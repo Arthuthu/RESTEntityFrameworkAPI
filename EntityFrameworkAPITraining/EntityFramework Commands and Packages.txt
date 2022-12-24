@@ -1,0 +1,17 @@
+﻿Add a migration: 
+dotnet ef migrations add "MigrationName"
+
+
+Update the database:
+dotnet ef database update
+
+
+
+
+______________
+
+
+Packages:
+- Microsoft.EntityFrameworkCore
+- Microsoft.EntityFrameworkCore.SqlServer (For SQLServer options in Program.cs)
+- Microsoft.EntityFrameworkCore.Design (For migrations command)
